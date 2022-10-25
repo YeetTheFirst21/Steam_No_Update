@@ -118,10 +118,12 @@ namespace Steam_no_update
                     {
                         if (newLanguagePack[0].Contains(String.Format("language pack for Steam_no_update {0}", System.Windows.Forms.Application.ProductVersion)))
                         {//Successful confirmation of the file:
+                            if (Program.BadForceYesNo(String.Format(LanguagePack(76) , newLanguagePack[0]), false) == DialogResult.No)
+                                return;//if selected no, this will cancel it.
                             Properties.Settings.Default.languagePack = newLanguagePack;
                             Properties.Settings.Default.languagePath = fbd.FileName;
-                            Program.Success(string.Format(Program.LanguagePack(5), Properties.Settings.Default.languagePath));
                             importedLangPack = Properties.Settings.Default.languagePack;
+                            Program.Success(string.Format(Program.LanguagePack(5), Properties.Settings.Default.languagePath));
                         }
                         else
                             Program.Bad(String.Format(Program.LanguagePack(6), "'language pack for Steam_no_update " + System.Windows.Forms.Application.ProductVersion + "'"));

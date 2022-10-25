@@ -14,20 +14,20 @@
     <Setting Name="defaultLanguagePack" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.00 //this line is free to use other than putting 'language pack for Steam_no_update 1.00' anywhere on this line. But this will also be shown when language pack information is clicked on. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues. Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
+  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.0.0.0 //    this line is free to use other than putting 'language pack for Steam_no_update 1.0.0.0' with the version of the app anywhere on this line. And will also be shown while changing the language file. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues.  Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
   &lt;string&gt; Force Continue?&lt;/string&gt;
   &lt;string&gt;Error&lt;/string&gt;
   &lt;string&gt;Success&lt;/string&gt;
   &lt;string&gt;load a language pack(.txt)&lt;/string&gt;
-  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app&lt;/string&gt;
+  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app or just changing the directory of the .exe as the configs are for the exes in specific directories&lt;/string&gt;
   &lt;string&gt;The file given does not contain {0} in the first line&lt;/string&gt;
   &lt;string&gt;The file given has less lines than ({0}) this version ({1}) of the app uses&lt;/string&gt;
-  &lt;string&gt;Are You Sure? This will quit the app&lt;/string&gt;
-  &lt;string&gt;Sorry I scared you&lt;/string&gt;
-  &lt;string&gt;Accept&lt;/string&gt;
-  &lt;string&gt;Reject&lt;/string&gt;
-  &lt;string&gt;By clicking accept, you acknowledge that I am not responsible for any harm caused to your Steam files by my poor coding (lol).&lt;/string&gt;
-  &lt;string&gt;Failed to add find game from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
+  &lt;string&gt;NOT USED (NU)&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;Failed to add game automatically from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
   &lt;string&gt;A game add failed but not sure why lol im lazy:&lt;/string&gt;
   &lt;string&gt;No (New if they have already been added) Steam game was found!&lt;/string&gt;
   &lt;string&gt;Select which game to stop updating, double click to edit its properties&lt;/string&gt;
@@ -90,25 +90,26 @@
   &lt;string&gt;ALL Installed Depots&lt;/string&gt;
   &lt;string&gt;Disable Autoupdate&lt;/string&gt;
   &lt;string&gt;Selected Game&lt;/string&gt;
+  &lt;string&gt;Are you sure you would like to use this file (No to cancel):   {0}&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="languagePack" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.00 //this line is free to use other than putting 'language pack for Steam_no_update 1.00' anywhere on this line. But this will also be shown when language pack information is clicked on. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues. Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
+  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.0.0.0 //    this line is free to use other than putting 'language pack for Steam_no_update 1.0.0.0' with the version of the app anywhere on this line. And will also be shown while changing the language file. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues.  Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
   &lt;string&gt; Force Continue?&lt;/string&gt;
   &lt;string&gt;Error&lt;/string&gt;
   &lt;string&gt;Success&lt;/string&gt;
   &lt;string&gt;load a language pack(.txt)&lt;/string&gt;
-  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app&lt;/string&gt;
+  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app or just changing the directory of the .exe as the configs are for the exes in specific directories&lt;/string&gt;
   &lt;string&gt;The file given does not contain {0} in the first line&lt;/string&gt;
   &lt;string&gt;The file given has less lines than ({0}) this version ({1}) of the app uses&lt;/string&gt;
-  &lt;string&gt;Are You Sure? This will quit the app&lt;/string&gt;
-  &lt;string&gt;Sorry I scared you&lt;/string&gt;
-  &lt;string&gt;Accept&lt;/string&gt;
-  &lt;string&gt;Reject&lt;/string&gt;
-  &lt;string&gt;By clicking accept, you acknowledge that I am not responsible for any harm caused to your Steam files by my poor coding (lol).&lt;/string&gt;
-  &lt;string&gt;Failed to add find game from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
+  &lt;string&gt;NOT USED (NU)&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;NU&lt;/string&gt;
+  &lt;string&gt;Failed to add game automatically from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
   &lt;string&gt;A game add failed but not sure why lol im lazy:&lt;/string&gt;
   &lt;string&gt;No (New if they have already been added) Steam game was found!&lt;/string&gt;
   &lt;string&gt;Select which game to stop updating, double click to edit its properties&lt;/string&gt;
@@ -171,6 +172,7 @@
   &lt;string&gt;ALL Installed Depots&lt;/string&gt;
   &lt;string&gt;Disable Autoupdate&lt;/string&gt;
   &lt;string&gt;Selected Game&lt;/string&gt;
+  &lt;string&gt;Are you sure you would like to use this file (No to cancel):   {0}&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="SavingTurnedOn" Type="System.Boolean" Scope="User">
