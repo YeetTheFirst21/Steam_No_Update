@@ -1,8 +1,8 @@
 # Steam_no_update
 
-A simple .net core app that was based on Kinsi's 'BeatSaberNoUpdate' that makes Steam think that there is no update necessary for games `<br />`
+A simple .net core app that was based on Kinsi's 'BeatSaberNoUpdate' that makes Steam think that there is no update necessary for games <br />
 Link to his github page:
-https://github.com/kinsi55/BeatSaber_UpdateSkipper `<br />`
+https://github.com/kinsi55/BeatSaber_UpdateSkipper <br />
 
 <p align="center">
   <img src="Ver 1.0.0.0 Main Screen.png">
@@ -62,7 +62,7 @@ Since Steam thinks you are on the latest version, eventho you are not, obviously
   <img src="Tutorial06.png">
 </p>
 
-#### Left most button (❓)`<br />`
+#### Left most button (❓)<br />
 
 This button will show you an information regarding what the app does:
 
@@ -70,7 +70,7 @@ This button will show you an information regarding what the app does:
   <img src="Tutorial07.png">
 </p>
 
-#### Second button from left (🔍)`<br />`
+#### Second button from left (🔍)<br />
 
 This button will search for games using the uninstaller data Windows holds (Windows holds the data of the games for when you want to uninstall them and they are acessible via the registry editor):
 
@@ -78,7 +78,7 @@ This button will search for games using the uninstaller data Windows holds (Wind
   <img src="Tutorial08.png">
 </p>
 
-#### Third button from left (🌐)`<br />`
+#### Third button from left (🌐)<br />
 
 This button will allow you to select a .txt file for changing the language of the app and will hold it in the memory for next time if saved:
 
@@ -89,9 +89,9 @@ This button will allow you to select a .txt file for changing the language of th
   <img src="Tutorial09_2.png">
 </p>
 
-#### Fourth button from left (💾)`<br />`
+#### Fourth button from left (💾)<br />
 
-This button will allow you to create a .config file in your computers files to save the already found games and their update dates and the language pack changes you might have possibly made. Clicking it again after turning on saving will turn it off but not save the files it has created.`<br />`
+This button will allow you to create a .config file in your computers files to save the already found games and their update dates and the language pack changes you might have possibly made. Clicking it again after turning on saving will turn it off but not save the files it has created.<br />
 
 You can find them in 'C:\Users\%username%\AppData\Local\YeetTheFirst21' Assuming you have the .exe of this app in your C drive:
 
@@ -103,15 +103,17 @@ You can find them in 'C:\Users\%username%\AppData\Local\YeetTheFirst21' Assuming
   <img src="Tutorial10_2.png">
 </p>
 
-#### Second button from right (➕)`<br />`
+#### Second button from right (➕)<br />
 
-This button will allow you to manually add games to the list. To do this, firstly you will need to get the 'APPID' of the game (This can be found on the store link such as : `<br />`'https://store.steampowered.com/app/1091500/Cyberpunk_2077/' or the shortcut created by steam will show this id when you hover over it. 1091500 is the APPID of Cyberpunk 2077),`<br />`
+This button will allow you to manually add games to the list. To do this, firstly you will need to get the 'APPID' of the game (This can be found on the store link such as : <br />
+'https://store.steampowered.com/app/1091500/Cyberpunk_2077/' or the shortcut created by steam will show this id when you hover over it. 1091500 is the APPID of Cyberpunk 2077),<br />
 
-secondly you will need to find the installed depots form the .acf file. to do this, you will need to  locate your game download file. Which for me and my copy of Cyberpunk 2077 is : 'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077',`<br />`
+secondly you will need to find the installed depots form the .acf file. to do this, you will need to  locate your game download file. Which for me and my copy of Cyberpunk 2077 is : 'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077',<br />
 
-then open'C:\Program Files (x86)\Steam\steamapps\appmanifest_1091500.acf' by changing '1091500' to the APPID of your game.`<br />`Using notepad, you should look for '"InstalledDepots"' and add all the main numbers within its bracket({}). Different games will have different amount of depots so you should either add the only one available or all of the ones with a ',' seperating them.`<br /><br />`
+then open'C:\Program Files (x86)\Steam\steamapps\appmanifest_1091500.acf' by changing '1091500' to the APPID of your game.<br />
+Using notepad, you should look for '"InstalledDepots"' and add all the main numbers within its bracket({}). Different games will have different amount of depots so you should either add the only one available or all of the ones with a ',' seperating them.<br />
 
-The input screens will ask you these in order of: Name, appID, depotID, folder location.`<br />`
+The input screens will ask you these in order of: Name, appID, depotID, folder location.<br />
 
 The same edit options will also appear if you double click an already existing game from the list to edit it.
 
@@ -132,7 +134,7 @@ The same edit options will also appear if you double click an already existing g
   <img src="Tutorial11_4.png">
 </p>
 
-#### Most left button (➖)`<br />`
+#### Most left button (➖)<br />
 
 This button will allow you to remove any selected game from the list. as long as a game is added to the list and is selected, this button should remove it from the list.
 
@@ -140,11 +142,11 @@ This button will allow you to remove any selected game from the list. as long as
 
 # Possible Errors and why they appear:
 
-Auto game add fails: `<br />`
+Auto game add fails: <br />
 
-#### 'Failed to add game automatically from uninstallers: Name:,ID:,Depot:,Path:'`<br />`
+#### 'Failed to add game automatically from uninstallers: Name:,ID:,Depot:,Path:'<br />
 
-this fail will show up if the uninstaller does not contain all the necessary info. E.g. this happened to me because I installed Rocket League on another device and then moved the files to this computer and made steam check the files, therefore it does not have an uninstaller on this device. `<br />`
+this fail will show up if the uninstaller does not contain all the necessary info. E.g. this happened to me because I installed Rocket League on another device and then moved the files to this computer and made steam check the files, therefore it does not have an uninstaller on this device. <br />
 
 SOLUTION: Just add the failed games manually as explained above if you want to stop Steam from updating them.
 
@@ -152,7 +154,7 @@ SOLUTION: Just add the failed games manually as explained above if you want to s
   <img src="Tutorial12_gameAdd.png">
 </p>
 
-#### 'Automatically retreiving the Manifest ID failed. Copy the latest 'Manifest ID' from the site. Make sure that 'Last update under the 'Creation date' looks correct, to confirm the site has already spotted the update! Open the website?'`<br />`
+#### 'Automatically retreiving the Manifest ID failed. Copy the latest 'Manifest ID' from the site. Make sure that 'Last update under the 'Creation date' looks correct, to confirm the site has already spotted the update! Open the website?'<br />
 
 This fail will show up if by any reason Steamkit2 (the piece of software that connects to Steam servers) failed to get the latest manifest ID. This is most likely caused by internet issues where the network you are connected to is blocking you from accessing the Steam servers (maybe even bad internet). Other possibility is that the software no longer works as intended with Steam Servers/Steam Servers are down or idk lol im not a god.
 
@@ -161,9 +163,9 @@ This fail will show up if by any reason Steamkit2 (the piece of software that co
 </p>
 
 
-SOLUTION: Either change your network or to manually add them after clicking 'Yes' which will load all of the necessary pages for the manifests in your default browser. If adding manually, you should order the Manifest IDs with the Depot IDs when applying multiple ones as the app compares at the old manifest IDs of the Depots in the same order.``<br /><br />``
+SOLUTION: Either change your network or to manually add them after clicking 'Yes' which will load all of the necessary pages for the manifests in your default browser. If adding manually, you should order the Manifest IDs with the Depot IDs when applying multiple ones as the app compares at the old manifest IDs of the Depots in the same order.<br />
 
-E.g. for Cyberpunk 2077, if the Depot IDs go 'x,1091501,z', the Manifet IDs should go 'Latest_manifest_for_x,9024153387735370035,Latest_manifest_for_z'.`<br /><br />`
+E.g. for Cyberpunk 2077, if the Depot IDs go 'x,1091501,z', the Manifet IDs should go 'Latest_manifest_for_x,9024153387735370035,Latest_manifest_for_z'.<br />
 
  Also make sure that the Last Update date is close to current time/later than the last time you updated the game or the Manifest ID might be the same old one and this app might not work.
 
