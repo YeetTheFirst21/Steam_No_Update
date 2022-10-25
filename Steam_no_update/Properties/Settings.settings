@@ -1,0 +1,180 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Steam_no_update.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="initializationOver" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="languagePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="alreadySetGames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="defaultLanguagePack" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.00 //this line is free to use other than putting 'language pack for Steam_no_update 1.00' anywhere on this line. But this will also be shown when language pack information is clicked on. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues. Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
+  &lt;string&gt; Force Continue?&lt;/string&gt;
+  &lt;string&gt;Error&lt;/string&gt;
+  &lt;string&gt;Success&lt;/string&gt;
+  &lt;string&gt;load a language pack(.txt)&lt;/string&gt;
+  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app&lt;/string&gt;
+  &lt;string&gt;The file given does not contain {0} in the first line&lt;/string&gt;
+  &lt;string&gt;The file given has less lines than ({0}) this version ({1}) of the app uses&lt;/string&gt;
+  &lt;string&gt;Are You Sure? This will quit the app&lt;/string&gt;
+  &lt;string&gt;Sorry I scared you&lt;/string&gt;
+  &lt;string&gt;Accept&lt;/string&gt;
+  &lt;string&gt;Reject&lt;/string&gt;
+  &lt;string&gt;By clicking accept, you acknowledge that I am not responsible for any harm caused to your Steam files by my poor coding (lol).&lt;/string&gt;
+  &lt;string&gt;Failed to add find game from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
+  &lt;string&gt;A game add failed but not sure why lol im lazy:&lt;/string&gt;
+  &lt;string&gt;No (New if they have already been added) Steam game was found!&lt;/string&gt;
+  &lt;string&gt;Select which game to stop updating, double click to edit its properties&lt;/string&gt;
+  &lt;string&gt;Select which Manifests to change&lt;/string&gt;
+  &lt;string&gt;The last time this game was stopped from being updated&lt;/string&gt;
+  &lt;string&gt;Link to the original Creator Website&lt;/string&gt;
+  &lt;string&gt;Link to the modifier Github page&lt;/string&gt;
+  &lt;string&gt;Link to the website used for the Icons&lt;/string&gt;
+  &lt;string&gt;Apply The Depot ManifestID Change&lt;/string&gt;
+  &lt;string&gt;Find the folder the game files are located in&lt;/string&gt;
+  &lt;string&gt;Click to get the corresponding manifest(s) to the depot id(s) from Steam&lt;/string&gt;
+  &lt;string&gt;Click to get information regarding the app&lt;/string&gt;
+  &lt;string&gt;Click to search for games automatically&lt;/string&gt;
+  &lt;string&gt;Click to save the added games to your local files--THIS WILL CREATE FOLDERS AND A FILE-BE AWARE!&lt;/string&gt;
+  &lt;string&gt;Add a new game&lt;/string&gt;
+  &lt;string&gt;Remove the selected game&lt;/string&gt;
+  &lt;string&gt;{0} install Folder:&lt;/string&gt;
+  &lt;string&gt;Latest {0} Manifest ID(s)&lt;/string&gt;
+  &lt;string&gt;Select All&lt;/string&gt;
+  &lt;string&gt;De/Select all choices&lt;/string&gt;
+  &lt;string&gt;Choose the folder where the game is under the Steam\steamapps\common folder&lt;/string&gt;
+  &lt;string&gt;It seems like the Folder you selected is incorrect. You can go to the properties of the game in Steam and click on 'Browse Game files' for an easy method to get the correct path&lt;/string&gt;
+  &lt;string&gt;Steam seems to be running, please exit it to apply the patch&lt;/string&gt;
+  &lt;string&gt;The Manifest ID you entered is incorrect. It should be a long number with somwhere between 15 and 20 digits (i hope). Make sure to not accidently enter any spaces&lt;/string&gt;
+  &lt;string&gt;Seems like this update is already applied. I'll apply it again for good measure&lt;/string&gt;
+  &lt;string&gt;There aren't the same number of Manifests to correspond with all of the Depots&lt;/string&gt;
+  &lt;string&gt;The manifests box has letters in it which is not right!&lt;/string&gt;
+  &lt;string&gt;Click again without selecting anything to cancel&lt;/string&gt;
+  &lt;string&gt;Only turned off auto update&lt;/string&gt;
+  &lt;string&gt;No change applied!&lt;/string&gt;
+  &lt;string&gt;Apply The Depot ManifestID Change&lt;/string&gt;
+  &lt;string&gt;Patch applied. Steam might still claim that an update available, but it should not actually download anything.  In doubt, create a backup.  To actually update your game at a later point, go to the properties of the game in Steam and verify the game integrity.    **Just simply installing an update at a later point without verifying the game integrity will probably break your game**&lt;/string&gt;
+  &lt;string&gt;This tool modifies a config file of Steam to make it think that you already have the last version (Indicated by the correct Manifest ID) eventho you are not.  You will need to redo this whenever an Update is released (Basically whenever Steam prompts you to Update to start the game you use this tool instead to fake that you did update)&lt;/string&gt;
+  &lt;string&gt;no Depot or App Id entered!&lt;/string&gt;
+  &lt;string&gt;Loading..&lt;/string&gt;
+  &lt;string&gt;Automatically retreiving the Manifest ID failed. Copy the latest 'Manifest ID' from the site. Make sure that 'Last update' under the 'Creation date' looks correct, to confirm the site has already spotted the latest update! Open the website?&lt;/string&gt;
+  &lt;string&gt;failed retrieving depot {0},&lt;/string&gt;
+  &lt;string&gt;Retrieve&lt;/string&gt;
+  &lt;string&gt;{0} install Folder:&lt;/string&gt;
+  &lt;string&gt;Latest {0} Manifest ID(s)&lt;/string&gt;
+  &lt;string&gt;Change the name of the game? Press OK to save and edit appID&lt;/string&gt;
+  &lt;string&gt;Edit Game Name&lt;/string&gt;
+  &lt;string&gt;Change the appID of the game? Press OK to save and edit depotID&lt;/string&gt;
+  &lt;string&gt;Edit Game ID&lt;/string&gt;
+  &lt;string&gt;Change the depotID of the game? Press OK to save and edit Installation Path&lt;/string&gt;
+  &lt;string&gt;Edit Game depotID&lt;/string&gt;
+  &lt;string&gt;You can only write numbers and ',' to seperate them&lt;/string&gt;
+  &lt;string&gt;You can only write numbers for APPID&lt;/string&gt;
+  &lt;string&gt;Choose which ManifestIDs of Depots to Change&lt;/string&gt;
+  &lt;string&gt;This will save the current state and create a physical file in &lt;/string&gt;
+  &lt;string&gt;  and will also continue saving untill you press again and cancel or delete the save file    Continue Anyways?&lt;/string&gt;
+  &lt;string&gt;This will stop autosaving into the file but will NOT delete the file in &lt;/string&gt;
+  &lt;string&gt;, are you sure?&lt;/string&gt;
+  &lt;string&gt;Would you like to search for games automatically?&lt;/string&gt;
+  &lt;string&gt;Update Never Cancelled&lt;/string&gt;
+  &lt;string&gt;the following game failed to load:{0}  should it be deleted to prevent this same error in the future?&lt;/string&gt;
+  &lt;string&gt;Apply&lt;/string&gt;
+  &lt;string&gt;Choose &amp;amp; Apply&lt;/string&gt;
+  &lt;string&gt;Apply Selected&lt;/string&gt;
+  &lt;string&gt;ALL Installed Depots&lt;/string&gt;
+  &lt;string&gt;Disable Autoupdate&lt;/string&gt;
+  &lt;string&gt;Selected Game&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="languagePack" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ENGLISH language pack for Steam_no_update 1.00 //this line is free to use other than putting 'language pack for Steam_no_update 1.00' anywhere on this line. But this will also be shown when language pack information is clicked on. Also, if there are any {} with numbers in them, keep them as is while translating, otherwise they will create issues. Also double spaces are new Line/Enter so keep them as is.&lt;/string&gt;
+  &lt;string&gt; Force Continue?&lt;/string&gt;
+  &lt;string&gt;Error&lt;/string&gt;
+  &lt;string&gt;Success&lt;/string&gt;
+  &lt;string&gt;load a language pack(.txt)&lt;/string&gt;
+  &lt;string&gt;Successfully changed the language pack to {0}, if you save this, you can always reset to default by writing -RESET as an argument while starting the app&lt;/string&gt;
+  &lt;string&gt;The file given does not contain {0} in the first line&lt;/string&gt;
+  &lt;string&gt;The file given has less lines than ({0}) this version ({1}) of the app uses&lt;/string&gt;
+  &lt;string&gt;Are You Sure? This will quit the app&lt;/string&gt;
+  &lt;string&gt;Sorry I scared you&lt;/string&gt;
+  &lt;string&gt;Accept&lt;/string&gt;
+  &lt;string&gt;Reject&lt;/string&gt;
+  &lt;string&gt;By clicking accept, you acknowledge that I am not responsible for any harm caused to your Steam files by my poor coding (lol).&lt;/string&gt;
+  &lt;string&gt;Failed to add find game from uninstallers: Name:{0},ID:{1},Depot:{2},Path:{3}&lt;/string&gt;
+  &lt;string&gt;A game add failed but not sure why lol im lazy:&lt;/string&gt;
+  &lt;string&gt;No (New if they have already been added) Steam game was found!&lt;/string&gt;
+  &lt;string&gt;Select which game to stop updating, double click to edit its properties&lt;/string&gt;
+  &lt;string&gt;Select which Manifests to change&lt;/string&gt;
+  &lt;string&gt;The last time this game was stopped from being updated&lt;/string&gt;
+  &lt;string&gt;Link to the original Creator Website&lt;/string&gt;
+  &lt;string&gt;Link to the modifier Github page&lt;/string&gt;
+  &lt;string&gt;Link to the website used for the Icons&lt;/string&gt;
+  &lt;string&gt;Apply The Depot ManifestID Change&lt;/string&gt;
+  &lt;string&gt;Find the folder the game files are located in&lt;/string&gt;
+  &lt;string&gt;Click to get the corresponding manifest(s) to the depot id(s) from Steam&lt;/string&gt;
+  &lt;string&gt;Click to get information regarding the app&lt;/string&gt;
+  &lt;string&gt;Click to search for games automatically&lt;/string&gt;
+  &lt;string&gt;Click to save the added games to your local files--THIS WILL CREATE FOLDERS AND A FILE-BE AWARE!&lt;/string&gt;
+  &lt;string&gt;Add a new game&lt;/string&gt;
+  &lt;string&gt;Remove the selected game&lt;/string&gt;
+  &lt;string&gt;{0} install Folder:&lt;/string&gt;
+  &lt;string&gt;Latest {0} Manifest ID(s)&lt;/string&gt;
+  &lt;string&gt;Select All&lt;/string&gt;
+  &lt;string&gt;De/Select all choices&lt;/string&gt;
+  &lt;string&gt;Choose the folder where the game is under the Steam\steamapps\common folder&lt;/string&gt;
+  &lt;string&gt;It seems like the Folder you selected is incorrect. You can go to the properties of the game in Steam and click on 'Browse Game files' for an easy method to get the correct path&lt;/string&gt;
+  &lt;string&gt;Steam seems to be running, please exit it to apply the patch&lt;/string&gt;
+  &lt;string&gt;The Manifest ID you entered is incorrect. It should be a long number with somwhere between 15 and 20 digits (i hope). Make sure to not accidently enter any spaces&lt;/string&gt;
+  &lt;string&gt;Seems like this update is already applied. I'll apply it again for good measure&lt;/string&gt;
+  &lt;string&gt;There aren't the same number of Manifests to correspond with all of the Depots&lt;/string&gt;
+  &lt;string&gt;The manifests box has letters in it which is not right!&lt;/string&gt;
+  &lt;string&gt;Click again without selecting anything to cancel&lt;/string&gt;
+  &lt;string&gt;Only turned off auto update&lt;/string&gt;
+  &lt;string&gt;No change applied!&lt;/string&gt;
+  &lt;string&gt;Apply The Depot ManifestID Change&lt;/string&gt;
+  &lt;string&gt;Patch applied. Steam might still claim that an update available, but it should not actually download anything.  In doubt, create a backup.  To actually update your game at a later point, go to the properties of the game in Steam and verify the game integrity.    **Just simply installing an update at a later point without verifying the game integrity will probably break your game**&lt;/string&gt;
+  &lt;string&gt;This tool modifies a config file of Steam to make it think that you already have the last version (Indicated by the correct Manifest ID) eventho you are not.  You will need to redo this whenever an Update is released (Basically whenever Steam prompts you to Update to start the game you use this tool instead to fake that you did update)&lt;/string&gt;
+  &lt;string&gt;no Depot or App Id entered!&lt;/string&gt;
+  &lt;string&gt;Loading..&lt;/string&gt;
+  &lt;string&gt;Automatically retreiving the Manifest ID failed. Copy the latest 'Manifest ID' from the site. Make sure that 'Last update' under the 'Creation date' looks correct, to confirm the site has already spotted the latest update! Open the website?&lt;/string&gt;
+  &lt;string&gt;failed retrieving depot {0},&lt;/string&gt;
+  &lt;string&gt;Retrieve&lt;/string&gt;
+  &lt;string&gt;{0} install Folder:&lt;/string&gt;
+  &lt;string&gt;Latest {0} Manifest ID(s)&lt;/string&gt;
+  &lt;string&gt;Change the name of the game? Press OK to save and edit appID&lt;/string&gt;
+  &lt;string&gt;Edit Game Name&lt;/string&gt;
+  &lt;string&gt;Change the appID of the game? Press OK to save and edit depotID&lt;/string&gt;
+  &lt;string&gt;Edit Game ID&lt;/string&gt;
+  &lt;string&gt;Change the depotID of the game? Press OK to save and edit Installation Path&lt;/string&gt;
+  &lt;string&gt;Edit Game depotID&lt;/string&gt;
+  &lt;string&gt;You can only write numbers and ',' to seperate them&lt;/string&gt;
+  &lt;string&gt;You can only write numbers for APPID&lt;/string&gt;
+  &lt;string&gt;Choose which ManifestIDs of Depots to Change&lt;/string&gt;
+  &lt;string&gt;This will save the current state and create a physical file in &lt;/string&gt;
+  &lt;string&gt;  and will also continue saving untill you press again and cancel or delete the save file    Continue Anyways?&lt;/string&gt;
+  &lt;string&gt;This will stop autosaving into the file but will NOT delete the file in &lt;/string&gt;
+  &lt;string&gt;, are you sure?&lt;/string&gt;
+  &lt;string&gt;Would you like to search for games automatically?&lt;/string&gt;
+  &lt;string&gt;Update Never Cancelled&lt;/string&gt;
+  &lt;string&gt;the following game failed to load:{0}  should it be deleted to prevent this same error in the future?&lt;/string&gt;
+  &lt;string&gt;Apply&lt;/string&gt;
+  &lt;string&gt;Choose &amp;amp; Apply&lt;/string&gt;
+  &lt;string&gt;Apply Selected&lt;/string&gt;
+  &lt;string&gt;ALL Installed Depots&lt;/string&gt;
+  &lt;string&gt;Disable Autoupdate&lt;/string&gt;
+  &lt;string&gt;Selected Game&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SavingTurnedOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
