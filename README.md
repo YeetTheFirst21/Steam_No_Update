@@ -111,7 +111,7 @@ This button will allow you to manually add games to the list. To do this, firstl
 secondly you will need to find the installed depots form the .acf file. to do this, you will need to  locate your game download file. Which for me and my copy of Cyberpunk 2077 is : 'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077',<br />
 
 then open'C:\Program Files (x86)\Steam\steamapps\appmanifest_1091500.acf' by changing '1091500' to the APPID of your game.<br />
-Using notepad, you should look for '"InstalledDepots"' and add all the main numbers within its bracket({}). Different games will have different amount of depots so you should either add the only one available or all of the ones with a ',' seperating them.`<br /><br />`
+Using notepad, you should look for '"InstalledDepots"' and add all the main numbers within its bracket({}). Different games will have different amount of depots so you should either add the only one available or all of the ones with a ',' seperating them.<br />
 
 The input screens will ask you these in order of: Name, appID, depotID, folder location.<br />
 
@@ -163,9 +163,9 @@ This fail will show up if by any reason Steamkit2 (the piece of software that co
 </p>
 
 
-SOLUTION: Either change your network or to manually add them after clicking 'Yes' which will load all of the necessary pages for the manifests in your default browser. If adding manually, you should order the Manifest IDs with the Depot IDs when applying multiple ones as the app compares at the old manifest IDs of the Depots in the same order.``<br /><br />``
+SOLUTION: Either change your network or to manually add them after clicking 'Yes' which will load all of the necessary pages for the manifests in your default browser. If adding manually, you should order the Manifest IDs with the Depot IDs when applying multiple ones as the app compares at the old manifest IDs of the Depots in the same order.<br />
 
-E.g. for Cyberpunk 2077, if the Depot IDs go 'x,1091501,z', the Manifet IDs should go 'Latest_manifest_for_x,9024153387735370035,Latest_manifest_for_z'.`<br /><br />`
+E.g. for Cyberpunk 2077, if the Depot IDs go 'x,1091501,z', the Manifet IDs should go 'Latest_manifest_for_x,9024153387735370035,Latest_manifest_for_z'.<br />
 
  Also make sure that the Last Update date is close to current time/later than the last time you updated the game or the Manifest ID might be the same old one and this app might not work.
 
