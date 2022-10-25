@@ -106,7 +106,11 @@ You can find them in 'C:\Users\%username%\AppData\Local\YeetTheFirst21' Assuming
 #### Second button from right (➕)<br />
 
 This button will allow you to manually add games to the list. To do this, firstly you will need to get the 'APPID' of the game (This can be found on the store link such as : <br />
-'https://store.steampowered.com/app/1091500/Cyberpunk_2077/' or the shortcut created by steam will show this id when you hover over it. 1091500 is the APPID of Cyberpunk 2077),<br />
+'https://store.steampowered.com/app/1091500/Cyberpunk_2077/' or the shortcut created by steam will show this id when you hover over it. 1091500 is the APPID of Cyberpunk 2077),
+
+<p align="center">
+  <img src="tutorial_Images\Tutorial11_0_shortcut.png">
+</p>
 
 secondly you will need to find the installed depots form the .acf file. to do this, you will need to  locate your game download file. Which for me and my copy of Cyberpunk 2077 is : 'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077',<br />
 
