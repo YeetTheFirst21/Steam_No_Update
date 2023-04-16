@@ -138,7 +138,7 @@ The same edit options will also appear if you double click an already existing g
   <img src="tutorial_Images\Tutorial11_4.png">
 </p>
 
-#### Most left button (➖)<br />
+#### Most right button (➖)<br />
 
 This button will allow you to remove any selected game from the list. as long as a game is added to the list and is selected, this button should remove it from the list.
 
